@@ -72,7 +72,13 @@
   .what-we-offer-subHeading {
     font-size: 22px !important;
     font-weight: 500;
+    color: #00a0e3;
   }
+
+  .servicesItem:hover .what-we-offer-subHeading{
+    color: #fff;
+  }
+
   .servicesSubList {
     font-size: 14px;
     color: #666e70;

@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+.logo {
+  width: 58px;
+}
+.logo-name {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-left: 0.5rem !important;
+  color: #00a0e3;
+}
+.nav-bar {
+  top: 0;
+  position: sticky;
+  z-index: 1002;
+  display: flex;
+  padding: 10px 0;
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+  background: white;
+}
+.logoSection {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-list {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.nav-list li {
+  list-style: none;
+  padding: 10px;
+  font-size: 14px;
+  padding-right: 10%;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.nav-list li a:hover {
+  text-decoration: none;
+  color: #3498db;
+}
+
+.notFound{
+  align-items: center;
+    justify-content: center;
+    height: 64vh;
+    display: flex;
+}
+.notFoundh2{
+  font-size: 25px;
+}
+.menuIcon{
+  padding: 10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 700px) {
+  .logo {
+    width: 58px;
+  }
+  .logo-name {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 0.5rem !important;
+  }
+  .nav-bar {
+    display: flex;
+    padding: 10px 0;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    place-content: space-between;
+  }
+  .logoSection {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-list {
+    width: 50%;
+    display: none;
+    justify-content: right;
+    align-items: center;
+  }
+  .nav-list li {
+    list-style: none;
+    padding: 10px;
+    font-size: 14px;
+    padding-right: 10%;
+  }
+
+  .nav-list li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+  .nav-list li a:hover {
+    text-decoration: none;
+    color: #3498db;
+  }
+  .menuIcon{
+    padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .App {
+    width: 100%;
+  }
+}
+
+
+.sidenav {
+  position: fixed;
+    z-index: 1;
+    top: 64px;
+    right: 0;
+    background-color: #00a0e3;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  /* right: 25px; */
+  font-size: 36px;
+  /* margin-left: 50px; */
+  color: #fff;
+}
+

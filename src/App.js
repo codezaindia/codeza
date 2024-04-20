@@ -10,15 +10,20 @@ import TalentAcq from "./components/WhatWeOffer/TalentAcq/TalentAcquisitionServi
 import ExecutiveSearch from './components/WhatWeOffer/ExecutiveSearch/ExecutiveSearch';
 import CommonPage from './components/WhatWeOffer/CommonPage/CommonPage';
 import ProductsAndServices from './components/ProductsAndServices/ProductsAndServices';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import CareerDescription from './components/CareerDescription/CareerDescription';
 import WhatWeOffer from './components/WhatWeOffer/WhatWeOffer';
 import TalentAcquisition from './components/TalentAcquisition/TalentAcquisition';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
   const [visible, setOpenCloseSidebar] = useState(false)
   const params=useParams()
   const location = useLocation();
+  useEffect(()=>{
+    AOS.init();
+  },[])
   return (
     <div className="App">
         <nav className="nav-bar">

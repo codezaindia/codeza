@@ -73,7 +73,7 @@ class Home extends Component {
             </div>
           </section>
         </div> */}
-        <div className="AboutUsSecondPart">
+        <div className="AboutUsSecondPart" data-aos="fade-up" data-aos-duration="3000">
             <section>
               <div>
                 <h2 className="what-we-offer-heading">Welcome to Codeza Solutions Private Limited</h2>

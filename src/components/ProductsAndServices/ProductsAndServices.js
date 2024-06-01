@@ -15,7 +15,7 @@ class ProductsAndServices extends Component {
   render() {
     return (
       <div>
-        <img src={prodtcsAndServicesImg} className="mainImg"></img>
+        {/* <img src={prodtcsAndServicesImg} className="mainImg"></img> */}
         <div className="aboutUs">
           <div className="AboutUsSecondPart">
             <section>
@@ -25,10 +25,12 @@ class ProductsAndServices extends Component {
               <div className="what-we-offer-list">
               {services.map((ele, i) => {
                 return (
-                  <a href={`${ele.linkName}`}>
+                  <a href={`${ele.linkName}`} >
                   <div
                     className="servicesItem"
                     xs={3}
+                    data-aos={i % 2===0?"fade-right":'fade-left'}
+                  data-aos-duration="3000"
                   >
                     <div className="what-we-offer-discription">
                       <div

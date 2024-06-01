@@ -10,10 +10,10 @@ class AboutUs extends Component {
   render() {
     return (
       <div>
-        <img src={aboutUSImage} className="aboutUsImage"></img>
+        {/* <img src={aboutUSImage} className="aboutUsImage"></img> */}
         <div className="aboutUs">
        
-        <div className="aboutUs">
+        <div className="aboutUs" data-aos="fade-up" data-aos-duration="3000">
           <div className="AboutUsSecondPart">
             <section>
               <div>
@@ -31,7 +31,7 @@ class AboutUs extends Component {
             </section>
           </div>
         </div>
-        <div className="AboutUsSecondPart">
+        <div className="AboutUsSecondPart" data-aos="fade-up" data-aos-duration="3000">
             <section>
               <div>
                 <h2 className="what-we-offer-heading">VISION AND MISSION</h2>

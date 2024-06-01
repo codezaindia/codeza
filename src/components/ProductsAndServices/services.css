@@ -26,13 +26,13 @@
     width: 30%;
   }
   .aboutUs-ul{
-    margin-bottom: 200px;
+    margin-bottom: 370px;
   }
   .what-we-offer-list {
     margin: 0 -5px;
     display: table;
     margin-top: 15px;
-    margin-bottom: 200px;
+    margin-bottom: 370px;
     width: -webkit-fill-available
   }
 
@@ -97,6 +97,10 @@
     .what-we-offer-list {
       width: 100%;
       margin-top: 15px;
+      margin-bottom: 1045px;
+    }
+    .aboutUs-ul{
+      margin-bottom: 1045px;
     }
     .AboutUsSecondPart {
       max-width: 1120px;

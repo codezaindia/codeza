@@ -6,14 +6,36 @@
     position: relative;
     color: white;
   }
+  .FooterLogoPart {
+    width: 25%;
+    margin: 0 auto;
+    padding: 0px 0px 0px 40px;
+    display: flex;
+    position: relative;
+    color: white;
+  }
  
-
+  .FooterSecondPartCenter {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 40px 40px 15px 40px;
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+  .besignedByName{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    font-size: 12px;
+    width: max-content;
+  }
 
   .Footer{
     background-color: black;
     position: absolute;
     bottom: 0;
     width: 100%;
+    display: flex;
   }
 
   .list {
@@ -23,15 +45,19 @@
     padding: 15px;
   }
 
-  .heading {
+  .headingFooter {
     font-weight: 700 !important;
     font-size: 17px;
     color: white;
-    margin-bottom: 15px;
+    margin: revert;
   }
 
   .conatctUs{
     width: 35%;
+    text-align: start;
+  }
+  .companyInfoFooter{
+    width: 50%;
     text-align: start;
   }
 
@@ -43,6 +69,7 @@
   .contactKey{
     font-size: 14px;
     margin-left: 6px;
+    width: 171px;
   }
   .conatctValue{
     font-size: 14px;
@@ -53,11 +80,19 @@
   }
 .designedByH1{
   font-size: 12px;
+  width: max-content;
+  display: contents;
 }
   .designedBySection{
     width: 35%;
     text-align: start;
     place-self: self-end;
+  }
+  .FooterLogoContainer{
+    text-align:center;
+    width: 100%;
+    /* background-color: #2eacdf; */
+    background: linear-gradient(to bottom, #0057fe 0%, #00a0e3 100%);
   }
 
   @media (max-width: 700px) {
@@ -72,6 +107,22 @@
       position: relative;
       color: white;
       display: block;
+      width: max-content;
+    }
+    .FooterLogoContainer{
+      text-align:center;
+      width: 100%;
+      /* background-color: #2eacdf; */
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+
+    }
+    .FooterLogoPart {
+      width: 90%;
+      margin: 0 auto;
+      padding: 0px 0px 0px 20px;
+      display: block;
+      position: relative;
+      color: white;
     }
     .what-we-offer-element {
       width: 100%;
@@ -79,6 +130,10 @@
       padding: 20px;
     }
     .conatctUs{
+        width: 100%;
+        text-align: start;
+      }
+      .companyInfoFooter{
         width: 100%;
         text-align: start;
       }
@@ -97,6 +152,7 @@
       position: absolute;
       bottom: 0;
       width: 100%;
+      display: block;
     }
    
   }

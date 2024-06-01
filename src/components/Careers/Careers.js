@@ -10,16 +10,18 @@ class Careers extends Component {
     // return(
         return (
             <div>
-              <img src={careersImg} className="mainImg"></img>
+              {/* <img src={careersImg} className="mainImg"></img> */}
               <div className="aboutUs">
                 <div className="AboutUsSecondPart">
-                <div>
+                <div //data-aos="fade-up" data-aos-duration="4000"
+                data-aos={"fade-right"}
+                data-aos-duration="3000">
                       <h3>
 Are you passionate about Data warehouse topics and thrive on new challenges in your career?</h3>
 <h3>Are you eager to utilize your skills to make significant strides in your field?</h3>
 <h3>Look no further than Codeza - your ideal partner for an exciting career!</h3>
                     </div>
-                    <div>
+                    <div data-aos="fade-up" data-aos-duration="4000">
                       <h2 className="currentOpeningHeading">Current Openings</h2>
                     </div>
                   <section>
@@ -31,6 +33,9 @@ Are you passionate about Data warehouse topics and thrive on new challenges in y
                         <div
                           className="openingBlock"
                           xs={3}
+                          data-aos={i % 2===0?"fade-right":'fade-left'}
+                          data-aos-duration="3000"
+                          // data-aos="fade-up" data-aos-duration="3000"
                         >
                           <div className="Careerdiscription">
                             <div

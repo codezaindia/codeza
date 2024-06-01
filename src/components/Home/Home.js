@@ -3,7 +3,6 @@ import { Carousel } from "react-responsive-carousel";
 import Img from "./Assets/HR-hiring-Complete-Controller.jpeg";
 import Img1 from "./Assets/recruitment2.jpeg";
 import Img2 from "./Assets/recruitment3.jpeg";
-
 import "./Home.css";
 import { WhatWeOfferData, WhoAreWe, OurApproach } from "./data";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -73,8 +72,8 @@ class Home extends Component {
             </div>
           </section>
         </div> */}
-        <div className="AboutUsSecondPart" data-aos="fade-up" data-aos-duration="3000">
-            <section>
+        <div className="AboutUsSecondPart">
+            <section  data-aos="fade-up" data-aos-duration="3000">
               <div>
                 <h2 className="what-we-offer-heading">Welcome to Codeza Solutions Private Limited</h2>
               </div>
@@ -89,7 +88,7 @@ class Home extends Component {
               </p>
             </section>
           </div>
-        <div className="who-are-we">
+        <div className="who-are-we" data-aos="fade-up" data-aos-duration="3000">
           <div className="homeSecondPart">
             <section>
               <div>

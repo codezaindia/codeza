@@ -26,7 +26,7 @@
     margin-top: 10px;
   }
   .aboutUs-ul{
-    margin-bottom: 200px;
+    margin-bottom: 370px;
   }
   .paragraph{
     text-indent: 70px;
@@ -38,6 +38,9 @@
 
 
   @media (max-width: 767px) {
+    .aboutUs-ul{
+      margin-bottom: 1045px;
+    }
     .what-we-offer-list {
       width: 100%;
       margin-top: 15px;

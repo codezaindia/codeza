@@ -15,11 +15,11 @@ class Footer extends Component {
       <div>
         <div className="Footer">
           <section className="FooterLogoPart">
-          <div className="FooterLogoContainer" style={{paddingTop:"40px"}}>
-            <div style={{ fontSize: '35px', fontWeight: 'bold', display: 'inline-flex'}}>
+          <div className="FooterLogoContainer" >
+            <div className='FooterUserLogo'>
             <box-icon type='solid' name='user' color={'white'} size='lg'></box-icon> Codeza
             </div>
-            <div style={{padding: '35px', paddingTop: '10px'}}>Welcome to Codeza, tomorrow's services and knowledge provider in field of Data warehousing field. Codeza is your trusted partner in developing and testing the next generation data warehouse projects. We are a start-up based in India, founded in 2021.
+            <div className="FooterCompanyInfo" >Welcome to Codeza, tomorrow's services and knowledge provider in field of Data warehousing field. Codeza is your trusted partner in developing and testing the next generation data warehouse projects. We are a start-up based in India, founded in 2021.
             </div></div><br/>
           </section>
           <section style={{width:'75%'}}>
@@ -56,7 +56,7 @@ class Footer extends Component {
               </div>
               <div className="contactUsList">
                 {socialMediaIcons.map((ele, index)=>{
-                  return <div className="FooterLogoContainer" style={{width: '40px',height: '40px' , background:"#00a0e3", marginLeft: index!==0 && '5px'}} onClick={()=>{ele.link && window.open(ele.link)}}>
+                  return <div className="socialLogoIcons" style={{ marginLeft: index!==0 && '5px'}} onClick={()=>{ele.link && window.open(ele.link)}}>
                 
                 <div style={{ fontSize: '35px', height: '100%', display: 'inline-flex'}}>
                   {/* <box-icon name='facebook' type='logo' ></box-icon> */}
@@ -103,17 +103,12 @@ class Footer extends Component {
           <div className="FooterSecondPartCenter">
           <section className="designedBySection">
               <div className="designedBy">
-                {/* © 2024 
-                &nbsp; */}
                 <h1 className="designedByH1">@ 
                   &nbsp;
                   <div className="besignedByName">Codeza Solutions Private Limited.</div>
                 </h1>
                 &nbsp;
                  All right reserved. 
-                 {/* | Design By  */}
-                 {/* &nbsp;
-                <h1 className="designedByH1">Codeza Solutions Private Limited</h1> */}
               </div>
             </section>
             </div>

@@ -22,7 +22,7 @@
   width: 58px;
 }
 .logo-name {
-  font-size: 31px;
+  font-size: 18px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -41,13 +41,13 @@
   background: white;
 }
 .logoSection {
-  width: 50%;
-  display: flex;
+  width: 35%;
+  display: grid;
   justify-content: center;
   align-items: center;
 }
 .nav-list {
-  width: 50%;
+  width: 65%;
   display: flex;
   justify-content: right;
   align-items: center;

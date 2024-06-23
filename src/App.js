@@ -16,7 +16,7 @@ import WhatWeOffer from './components/WhatWeOffer/WhatWeOffer';
 import TalentAcquisition from './components/TalentAcquisition/TalentAcquisition';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import logo from './logo.png'
+import logo from './logo.jpeg'
 
 function App() {
   const [visible, setOpenCloseSidebar] = useState(false)
@@ -29,8 +29,8 @@ function App() {
     <div className="App">
         <nav className="nav-bar">
         <div className="logoSection">
-          <img src={logo} width={'60px'} height={'60px'}></img>
-          <span className="logo-name">Codeza Solutions Private Limited</span>
+          <img src={logo} height={'40px'}></img>
+          {/* <span className="logo-name">Codeza Solutions Private Limited</span> */}
         </div>
 
         <ul className="nav-list">
